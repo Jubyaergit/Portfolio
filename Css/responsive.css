@@ -1,0 +1,1331 @@
+/* =============================================
+                START
+=============================================== */
+@media(min-width:320px) and (max-width:575px){
+  nav{
+    background: #000 !important;
+    text-align: center;
+  }
+  .navbar-toggler i{
+    font-size: 100px;
+    font-size: 35px;
+    margin-top: 5px;
+  }
+   nav .fa, .fas {
+    font-size: 35px;
+    margin-top: 5px;
+  }
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+    background: #000;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    background: #000;
+  }
+  nav .nav-link {
+    padding: 1.7rem 1rem;
+  }
+
+  #service-part .btt{display: none;
+  }
+  nav .fa, .fas {
+    font-weight: 900;
+    color: #d6c6b2;
+    font-size: 50px;
+    margin-top: 18px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-bottom: 20px;
+  }
+  nav ul li a::after {
+    background: #000;
+  }
+  nav ul li a:hover{
+    color: #fff !important;
+  }
+
+  #banner-part .img{
+    display: none;
+  }
+  #portfolio-part .main-container .overlay h2 {
+    font-size: 13px;
+  }
+  #portfolio-part .main-container .overlay p {
+    font-size: 14px;
+  }
+  #banner-part .text h1 {
+    font-size: 80px;
+    margin-left: 0;
+  }
+  #banner-part .text h5 {
+    text-align: center;
+  }
+  #banner-part .text {
+    padding-right: 0px;
+    text-align: center;
+  }
+  #banner-part .text h2 {
+    font-size: 57px;
+    margin-left: 0px;
+    position: static;
+  }
+  #banner-part .text .button {
+    text-align: center; 
+    margin-top: 20px;
+  }
+  #banner-part .text .button a {
+    font-size: 12px;
+    padding: 15px 15px;
+    margin-left: 22px;
+  }
+  #banner-part .text .button a:last-child {
+    padding: 15px 30px;
+  }
+  #about-part .text h2 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  #about-part .text p {
+    width: auto;
+  }
+  #about-part .icon i {
+    height: 45px;
+    width: 45px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+  #testimonial-part .bt {
+    display: none;
+  }
+  #about-part .icon {
+    text-align: center;
+  }
+  #about-part {
+    padding: 50px 0;
+  }
+  #service-part .service-slider .item h3 {
+    font-size: 20px;
+  }
+  #service-part .service-slider .item p {
+    font-size: 13px;
+  }
+  #portfolio-part {
+    padding: 50px 0;
+  }
+  #portfolio-part h3{
+    text-align: center;
+  }
+  #portfolio-part .main-container {
+    margin-left: 0px;
+  }
+  #portfolio-part .main-container .img {
+    margin: 0px;
+  }
+  #testimonial-part nav .fa, .fas {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  #testimonial-part .overlay .item .img img {
+    width: 59px;
+  }
+  #testimonial-part .overlay .item .text p {
+    font-size: 14px;
+    margin-left: -68px;
+  }
+  #portfolio-part .row {
+    flex-direction: column-reverse;
+  }
+  .mix{
+    margin: 10px auto;
+  }
+  #blog-part .top-part .text h2 {
+    padding-top: 10px;
+  }
+  #blog-part .top-part {
+    flex-direction: column;
+    width: 73%;
+    margin: 20px auto;
+  }
+
+  #blog-part .title h2 {
+    margin-bottom: -22px;
+  }
+  #blog-part .top-part .img {
+    width: 100%;
+  }
+  #blog-part .top-part .text {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  #blog-part .top-part .text .main1 .admin h5 {
+    font-size: 12px;
+  }
+  #blog-part .top-part .text .main1 .like h5 {
+    font-size: 12px;
+  }
+  #blog-part .top-part .text .main1 .msg h5 {
+    font-size: 12px;
+    margin-left: 3px;
+  }
+  #blog-part .top-part .text .main1 .share h5 {
+    font-size: 12px;
+    margin-left: 7px;
+  }
+  #blog-part .top-part .text h3 {
+    padding-top: 10px;
+  }
+  #blog-part .top-part .text h4 {
+    margin-left: 44px;
+    padding-bottom: 15px;
+  }
+
+  #blog-part .right-part {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #blog-part .right-part .right-text {
+    padding: 10px 0;
+  }
+  #blog-part .right-part .main1 .admin h5 {
+    font-size: 12px;
+  }
+  #blog-part .right-part .main1 h5 i{
+    color: #282828;
+  }
+  #blog-part .right-part h2 {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  #blog-part .right-part h4 {
+    margin-left: 55px;
+  }
+  #blog-part .right-part h4 i{
+    color: #282828;
+  }
+
+  #blog-part .right-part h3 i{
+    color: #282828;
+  }
+  #blog-part{
+    padding-bottom: 50px;
+  }
+  footer {
+    padding: 0;
+    padding-bottom: 100px;
+  }
+  footer .left h3 {
+    padding-top: 20px;
+  }
+  footer .message .top input{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  footer .message h3 {
+    text-align: center;
+  }
+  footer .message .bottom input {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  footer .message .icon1 i {
+    right: 3px;
+    bottom: 1px;
+    color: #282828;
+}
+#portfolio-part ul {
+	margin-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#portfolio-part ul li {
+	font-size: 13px;
+	margin: 11px;
+	border: 2px solid #fff;
+	padding: 7px 8px;
+}
+#portfolio-part ul li:hover{
+  padding-left: 8px;
+}
+  /* ========================= */
+}
+/* =============================================
+                END
+=============================================== */
+@media(min-width:412px) and (max-width:575px){
+  #portfolio-part .main-container .overlay h2 {
+    font-size: 20px;
+  }
+  #portfolio-part .main-container .overlay p {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================
+                START
+=============================================== */
+@media(min-width:576px) and (max-width:767px){
+  nav{
+    background: #000 !important;
+    text-align: center;
+  }
+  .navbar-toggler i{
+    font-size: 100px;
+    font-size: 35px;
+    margin-top: 5px;
+  }
+   nav .fa, .fas {
+    font-size: 35px;
+    margin-top: 5px;
+  }
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+    background: #000;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    background: #000;
+  }
+  nav .nav-link {
+    padding: 1.7rem 1rem;
+  }
+  nav .fa, .fas {
+    font-weight: 900;
+    color: #d6c6b2;
+    font-size: 50px;
+    margin-top: 18px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-bottom: 33px;
+  }
+  nav ul li a::after {
+    background: #000;
+  }
+  nav ul li a:hover{
+    color: #fff !important;
+  }
+
+  #banner-part .img{
+    display: none;
+  }
+  #banner-part .text h1 {
+    font-size: 125px;
+    margin-left: 0;
+  }
+  #banner-part .text h5 {
+    text-align: center;
+    font-size: 30px;
+  }
+  #banner-part .text {
+    padding-right: 0px;
+    text-align: center;
+  }
+  #banner-part .text h2 {
+    font-size: 80px;
+    margin-left: 0px;
+    position: static;
+  }
+  #banner-part .text .button {
+    text-align: center; 
+    margin-top: 20px;
+  }
+  #banner-part .text .button a {
+    font-size: 15px;
+    padding: 15px 30px;
+  }
+  #banner-part .text .button a:last-child {
+    padding: 15px 45px;
+  }
+  #about-part .text h2 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  #about-part .text p {
+    width: auto;
+  }
+  #about-part .icon i {
+    height: 45px;
+    width: 45px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+  #about-part .icon {
+    text-align: center;
+  }
+  #about-part {
+    padding: 50px 0;
+  }
+  #service-part .service-slider .item h3 {
+    font-size: 20px;
+  }
+  #service-part .service-slider .item p {
+    font-size: 13px;
+  }
+  #portfolio-part {
+    padding: 50px 0;
+  }
+  #portfolio-part h3{
+    text-align: center;
+  }
+  #portfolio-part .main-container {
+    margin-left: 0px;
+  }
+  #portfolio-part .main-container .img {
+    margin: 0px;
+  }
+  #testimonial-part nav .fa, .fas {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  #testimonial-part .overlay .item .img img {
+    width: 79px;
+  }
+  #testimonial-part .overlay .item .text p {
+    font-size: 14px;
+    margin-left: -68px;
+  }
+  #portfolio-part .row {
+    flex-direction: column-reverse;
+  }
+  .mix{
+    margin: 10px auto;
+    width: 45%;
+  }
+
+  #portfolio-part .main-container .overlay p {
+    font-size: 11px;
+  }
+
+  #portfolio-part .main-container .overlay h2 {
+    bottom: 34px;
+    font-size: 15px;
+  }
+
+  #portfolio-part .main-container .overlay i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+  #blog-part .top-part .text h2 {
+    padding-top: 10px;
+  }
+
+  #blog-part .top-part {
+    flex-direction: column;
+    width: 73%;
+    margin: 20px auto;
+  }
+
+  #blog-part .title h2 {
+    margin-bottom: -22px;
+  }
+
+  #blog-part .top-part .img {
+    width: 100%;
+  }
+  #blog-part .top-part .text {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  #blog-part .top-part .text .main1 .admin h5 {
+    font-size: 12px;
+  }
+  #blog-part .top-part .text .main1 .like h5 {
+    font-size: 12px;
+  }
+  #blog-part .top-part .text .main1 .msg h5 {
+    font-size: 12px;
+    margin-left: 3px;
+  }
+  #blog-part .top-part .text .main1 .share h5 {
+    font-size: 12px;
+    margin-left: 7px;
+  }
+  #blog-part .top-part .text h3 {
+    padding-top: 10px;
+  }
+  #blog-part .top-part .text h4 {
+    margin-left: 44px;
+    padding-bottom: 15px;
+  }
+  #blog-part .right-part .right-text {
+    padding: 10px 0;
+  }
+  #blog-part .right-part .main1 .admin h5 {
+    font-size: 12px;
+  }
+  #blog-part .right-part .main1 h5 i{
+    color: #282828;
+  }
+  #blog-part .right-part h2 {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  #blog-part .right-part h4 {
+    margin-left: 55px;
+  }
+  #blog-part .right-part h4 i{
+    color: #282828;
+  }
+
+  #blog-part .right-part h3 i{
+    color: #282828;
+  }
+  #blog-part{
+    padding-bottom: 50px;
+  }
+  footer {
+    padding: 0;
+    padding-bottom: 100px;
+  }
+  footer .left h3 {
+    padding-top: 20px;
+  }
+  footer .message .top input{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  footer .message h3 {
+    text-align: center;
+  }
+  footer .message .bottom input {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  footer .message .icon1 i {
+    right: 3px;
+    bottom: 1px;
+    color: #282828;
+}
+  #portfolio-part ul {
+	margin-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer .left .icon {
+	margin-right: 0px;
+	text-align: center;
+}
+
+#portfolio-part ul li {
+	font-size: 13px;
+	margin: 11px;
+	border: 2px solid #fff;
+	padding: 7px 8px;
+}
+#portfolio-part ul li:hover{
+  padding-left: 8px;
+}
+  /* ========================= */
+}
+/* =============================================
+                END
+=============================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================
+                START
+=============================================== */
+@media(min-width:992px) and (max-width:1199px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #banner-part {
+    padding-bottom: 113px;
+  }
+
+  #banner-part .img{
+    width: 0%;
+  }
+  #banner-part .text h1 {
+    font-size: 108px;
+    margin-left: 0;
+  }
+  #banner-part .text h5 {
+    text-align: center;
+    font-size: 30px;
+  }
+  #banner-part .text {
+    padding-right: 0px;
+    text-align: center;
+  }
+  #banner-part .text h2 {
+    font-size: 75px;
+    margin-left: 0px;
+    position: static;
+  }
+  #banner-part .text .button {
+    text-align: center; 
+    margin-top: 20px;
+  }
+  #banner-part .text .button a {
+    font-size: 15px;
+    padding: 15px 30px;
+  }
+  #banner-part .text .button a:last-child {
+    padding: 15px 45px;
+  }
+  #about-part .text h2 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  #about-part .text p {
+    width: auto;
+  }
+  #about-part .icon i {
+    height: 45px;
+    width: 45px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+  #about-part .icon {
+    text-align: left;
+  }
+  #about-part {
+    padding: 50px 0;
+  }
+  #service-part .service-slider .item h3 {
+    font-size: 20px;
+  }
+  #service-part .service-slider .item p {
+    font-size: 13px;
+  }
+  #portfolio-part {
+    padding: 50px 0;
+  }
+  #portfolio-part h3{
+    text-align: center;
+  }
+  #portfolio-part .main-container {
+    margin-left: 0px;
+  }
+  #portfolio-part .main-container .img {
+    margin: 0px;
+  }
+  nav .fa, .fas {
+    font-size: 25px;
+  }
+  #testimonial-part .overlay .item .img img {
+    width: 79px;
+  }
+  #testimonial-part .overlay .item .text p {
+    font-size: 14px;
+    margin-left: -68px;
+  }
+  #portfolio-part .row {
+    flex-direction: column-reverse;
+
+  }
+  .mix{
+    margin: 18px auto;
+    width: 46%;
+  }
+
+  #blog-part .top-part .text h2 {
+    padding-top: 0px;
+  }
+  #blog-part .top-part {
+    flex-direction: flex;
+  }
+  #blog-part .top-part .img {
+    width: 100%;
+  }
+  #blog-part .top-part .text {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  #blog-part .top-part .text .main1 .admin h5 {
+    font-size: 12px;
+  }
+  #blog-part .top-part .text .main1 .like h5 {
+    font-size: 12px;
+  }
+  #blog-part .top-part .text .main1 .msg h5 {
+    font-size: 12px;
+    margin-left: -2px;
+  }
+  #blog-part .top-part .text .main1 .share h5 {
+    font-size: 12px;
+    margin-left: 7px;
+  }
+  #blog-part .top-part .text h3 {
+    padding-top: 10px;
+  }
+  #blog-part .top-part .text h4 {
+    margin-left: 44px;
+    padding-bottom: 15px;
+  }
+  #blog-part .right-part .right-text {
+    padding: 10px 0;
+  }
+  #blog-part .right-part .main1 .admin h5 {
+    font-size: 12px;
+  }
+  #blog-part .right-part .main1 h5 i{
+    color: #282828;
+  }
+  #blog-part .right-part h2 {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  #blog-part .right-part h4 {
+    margin-left: 415px;
+  }
+  #blog-part .right-part h4 i{
+    color: #282828;
+  }
+
+  #blog-part .right-part h3 i{
+    color: #282828;
+  }
+  #blog-part{
+    padding-bottom: 50px;
+  }
+  footer {
+    padding: 0;
+    padding-bottom: 100px;
+  }
+  footer .left h3 {
+    padding-top: 20px;
+  }
+  footer .message .top input{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  footer .message h3 {
+    text-align: center;
+  }
+  footer .message .bottom input {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  footer .message .icon1 i {
+    right: 3px;
+    bottom: 1px;
+    color: #282828;
+}
+  #portfolio-part ul {
+	margin-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer .left .icon {
+	margin-right: 0px;
+	text-align: center;
+}
+
+#portfolio-part ul li {
+	font-size: 13px;
+	margin: 11px 22px;
+	border: 2px solid #fff;
+	padding: 7px 8px;
+}
+#portfolio-part ul li:hover{
+  padding-left: 8px;
+}
+  /* ========================= */
+}
+/* =============================================
+                END
+=============================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================
+                START
+=============================================== */
+@media(min-width:768px) and (max-width:991px){
+  nav{
+    background: #000 !important;
+    text-align: center;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .navbar-toggler i{
+    font-size: 100px;
+    font-size: 35px;
+    margin-top: 5px;
+  }
+   nav .fa, .fas {
+    font-size: 35px;
+    margin-top: 5px;
+  }
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+    background: #000;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    background: #000;
+  }
+  nav .nav-link {
+    padding: 1.7rem 1rem;
+  }
+  nav .fa, .fas {
+    font-weight: 900;
+    color: #d6c6b2;
+    font-size: 50px;
+    margin-top: 18px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-bottom: 33px;
+  }
+  nav ul li a::after {
+    background: #000;
+  }
+  nav ul li a:hover{
+    color: #fff !important;
+  }
+
+  #banner-part .img{
+    display: none;
+  }
+  #banner-part .text h1 {
+    font-size: 125px;
+    margin-left: 0;
+  }
+  #banner-part .text h5 {
+    text-align: center;
+    font-size: 30px;
+  }
+  #banner-part .text {
+    padding-right: 0px;
+    text-align: center;
+  }
+  #banner-part .text h2 {
+    font-size: 80px;
+    margin-left: 0px;
+    position: static;
+  }
+  #banner-part .text .button {
+    text-align: center; 
+    margin-top: 20px;
+  }
+  #banner-part .text .button a {
+    font-size: 15px;
+    padding: 15px 30px;
+  }
+  #banner-part .text .button a:last-child {
+    padding: 15px 45px;
+  }
+  #about-part .text h2 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  #about-part .text p {
+    width: auto;
+  }
+  #about-part .icon i {
+    height: 45px;
+    width: 45px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+  #about-part .icon {
+    text-align: left;
+  }
+  #about-part {
+    padding: 50px 0;
+  }
+  #service-part .service-slider .item h3 {
+    font-size: 20px;
+  }
+  #service-part .service-slider .item p {
+    font-size: 13px;
+  }
+  #portfolio-part {
+    padding: 50px 0;
+  }
+  #portfolio-part h3{
+    text-align: center;
+  }
+  #portfolio-part .main-container {
+    margin-left: 0px;
+  }
+  #portfolio-part .main-container .img {
+    margin: 0px;
+  }
+  nav .fa, .fas {
+    font-size: 25px;
+  }
+
+  #portfolio-part .row {
+    flex-direction: column-reverse;
+  }
+
+  .mix{
+    width: 47%;
+  }
+
+  #portfolio-part .main-container .overlay p {
+    font-size: 15px;
+  }
+
+  #portfolio-part .main-container .overlay h2 {
+    bottom: 35px;
+    font-size: 20px;
+  }
+
+  #blog-part .top-part .text h2 {
+    padding-top: 10px;
+  }
+  #blog-part .top-part {
+    flex-direction: flex;
+  }
+  #blog-part .top-part .img {
+    width: 100%;
+  }
+  #blog-part .top-part .text {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  #blog-part .top-part .text .main1 .admin h5 {
+    font-size: 12px;
+  }
+  #blog-part .top-part .text .main1 .like h5 {
+    font-size: 12px;
+  }
+  #blog-part .top-part .text .main1 .msg h5 {
+    font-size: 12px;
+    margin-left: -2px;
+  }
+  #blog-part .top-part .text .main1 .share h5 {
+    font-size: 12px;
+    margin-left: 7px;
+  }
+  #blog-part .top-part .text h3{
+    padding-top: 10px;
+  }
+  #blog-part .top-part .text h4 {
+    margin-left: 44px;
+    padding-bottom: 15px;
+  }
+  #blog-part .right-part .right-text {
+    padding: 10px 0;
+  }
+  #blog-part .right-part .main1 .admin h5 {
+    font-size: 12px;
+  }
+  #blog-part .right-part .main1 h5 i{
+    color: #282828;
+  }
+  #blog-part .right-part h2 {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  #blog-part .right-part h4 {
+    margin-left: 415px;
+  }
+  #blog-part .right-part h4 i{
+    color: #282828;
+  }
+
+  #blog-part .right-part h3 i{
+    color: #282828;
+  }
+  #blog-part{
+    padding-bottom: 50px;
+  }
+  footer {
+    padding: 0;
+    padding-bottom: 100px;
+  }
+  footer .left h3 {
+    padding-top: 20px;
+  }
+  footer .message .top input{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  footer .message h3 {
+    text-align: center;
+  }
+  footer .message .bottom input {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  footer .message .icon1 i {
+    right: 3px;
+    bottom: 1px;
+    color: #282828;
+}
+  #portfolio-part ul {
+	margin-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer .left .icon {
+	margin-right: 0px;
+	text-align: center;
+}
+
+#portfolio-part ul li {
+	font-size: 13px;
+	margin: 11px;
+	border: 2px solid #fff;
+	padding: 7px 8px;
+}
+#portfolio-part ul li:hover{
+  padding-left: 8px;
+}
+  /* ========================= */
+}
+/* =============================================
+                END
+=============================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================
+                START
+=============================================== */
+@media(min-width:992px) and (max-width:1199px){
+  .navbar-light .navbar-brand {
+    margin-left: -20px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #banner-part .text h1 {
+    font-size: 110px;
+    margin-left: 0;
+  }
+  #banner-part .text h5 {
+    text-align: center;
+    font-size: 30px;
+  }
+  #banner-part .text {
+    padding-right: 0px;
+    text-align: center;
+  }
+  #banner-part .text h2 {
+    font-size: 75px;
+    margin-left: 0px;
+    position: static;
+  }
+  #banner-part .text .button {
+    text-align: center; 
+    margin-top: 20px;
+  }
+  #banner-part .text .button a {
+    font-size: 15px;
+    padding: 15px 30px;
+  }
+  #banner-part .text .button a:last-child {
+    padding: 15px 45px;
+  }
+  #about-part .text h2 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  #about-part .text p {
+    width: auto;
+  }
+  #about-part .icon i {
+    height: 45px;
+    width: 45px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+  #about-part .icon {
+    text-align: left;
+  }
+  #about-part {
+    padding: 50px 0;
+  }
+  #service-part .service-slider .item h3 {
+    font-size: 20px;
+  }
+  #service-part .service-slider .item p {
+    font-size: 13px;
+  }
+  #portfolio-part {
+    padding: 50px 0;
+  }
+  #portfolio-part h3{
+    text-align: center;
+  }
+  #portfolio-part .main-container {
+    margin-left: 0px;
+  }
+  #portfolio-part .main-container .img {
+    margin: 0px;
+  }
+  nav .fa, .fas {
+    font-size: 16px;
+  }
+  #testimonial-part .overlay .item .img img {
+    width: 79px;
+  }
+  #testimonial-part .overlay .item .text p {
+    font-size: 14px;
+    margin-left: -90px;
+  }
+  #portfolio-part .row {
+    flex-direction: column-reverse;
+  }
+  .mix{
+    margin: 10px auto;
+  }
+  #blog-part .top-part .text h2 {
+    padding-top: 12px;
+    font-size: 18px;
+  }
+  #blog-part .top-part {
+    flex-direction: flex;
+  }
+  #blog-part .top-part .text h3 {
+    font-size: 17px;
+  }
+  
+  #blog-part .top-part .text p {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+  #blog-part .top-part .img {
+    width: 100%;
+  }
+  #blog-part .top-part .text {
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  #blog-part .top-part .text .main1 .admin h5 {
+    font-size: 11px;
+  }
+  #blog-part .top-part .text .main1 .like h5 {
+    font-size: 11px;
+  }
+  #blog-part .top-part .text .main1 .msg h5 {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  #blog-part .top-part .text .main1 .share h5 {
+    font-size: 11px;
+    margin-left: 2px;
+  }
+  #blog-part .top-part .text h3{
+    padding-top: 10px;
+  }
+  #blog-part .top-part .text h4 {
+    margin-left: 44px;
+    padding-bottom: 15px;
+  }
+  #blog-part .right-part .right-text {
+    padding: 36px 0;
+  }
+  #blog-part .right-part .main1 .admin h5 {
+    font-size: 12px;
+  }
+  #blog-part .right-part .main1 h5 i{
+    color: #282828;
+  }
+  #blog-part .right-part h2 {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  #blog-part .right-part h4 {
+    margin-left: 125px;
+  }
+  #blog-part .right-part p {
+    font-size: 14px;
+  }
+  #blog-part .right-part h4 i{
+    color: #282828;
+  }
+  #blog-part .right-part h3 {
+    margin-top: 23px;
+  }
+  #blog-part .right-part h3 i{
+    color: #282828;
+  }
+  #blog-part{
+    padding-bottom: 50px;
+  }
+  footer {
+    padding: 0;
+    padding-bottom: 100px;
+  }
+  footer .left h3 {
+    padding-top: 20px;
+  }
+  footer .message .top input{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  footer .message h3 {
+    text-align: center;
+  }
+  footer .message .bottom input {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  footer .message .icon1 i {
+    right: 3px;
+    bottom: 1px;
+    color: #282828;
+}
+  #portfolio-part ul {
+	margin-left: 60px;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer .left .icon {
+	margin-right: 0px;
+	text-align: center;
+}
+
+#portfolio-part ul li {
+	font-size: 13px;
+	margin: 11px;
+	border: 2px solid #fff;
+	padding: 7px 8px;
+}
+#portfolio-part ul li:hover{
+  padding-left: 8px;
+}
+  /* ========================= */
+}
+/* =============================================
+                END
+=============================================== */
+
+
+@media(min-width:1200px) and (max-width:1399px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #banner-part .text h1 {
+    font-size: 115px;
+    margin-left: 60px;
+  }
+  #banner-part .text h2 {
+    font-size: 95px;
+    margin-left: 0px;
+  }
+  #banner-part .text .button a {
+    margin-left: 10px;
+}
+#banner-part .text .button {
+	margin-right: -75px;
+}
+#banner-part .text h5 {
+	padding-right: 0px;
+}
+#banner-part {
+	padding-bottom: 78px;
+}
+#blog-part .right-part h2 {
+	padding-top: 70px;
+}
+
+.mix{
+  width: 46%;
+}
+
+#portfolio-part .main-container .overlay p {
+	font-size: 16px;
+}
+
+#portfolio-part .main-container .overlay h2 {
+	font-size: 21px;
+}
+
+#portfolio-part ul li {
+	font-size: 20px;
+	margin-left: 0px;
+}
+
+  /* ========================= */
+}
